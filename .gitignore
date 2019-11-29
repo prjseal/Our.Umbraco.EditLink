@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Our.Umbraco.EditLink/bin/Debug
+/Our.Umbraco.EditLink/obj/Debug
+/Our.Umbraco.EditLink.Web/.vs
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/App_Data/cache
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/App_Data/Logs
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/App_Data/Models
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/App_Data/TEMP
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/bin
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/obj/Debug
+/Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/Umbraco
+/Our.Umbraco.EditLink.Web/packages

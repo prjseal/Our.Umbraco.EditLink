@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.EditLink.Web", "Our.Umbraco.EditLink.Web\Our.Umbraco.EditLink.Web.csproj", "{D93C1DD3-8073-4641-B40B-F1A52E5406F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.EditLink", "..\Our.Umbraco.EditLink\Our.Umbraco.EditLink.csproj", "{0D266F3F-C4A3-4640-9B9A-D3315F9F514E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93C1DD3-8073-4641-B40B-F1A52E5406F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93C1DD3-8073-4641-B40B-F1A52E5406F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93C1DD3-8073-4641-B40B-F1A52E5406F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93C1DD3-8073-4641-B40B-F1A52E5406F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D266F3F-C4A3-4640-9B9A-D3315F9F514E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D266F3F-C4A3-4640-9B9A-D3315F9F514E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D266F3F-C4A3-4640-9B9A-D3315F9F514E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D266F3F-C4A3-4640-9B9A-D3315F9F514E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D7CE946-CEE7-406A-BB02-4DF1A14E81DA}
+	EndGlobalSection
+EndGlobal
