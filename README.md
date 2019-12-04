@@ -45,12 +45,3 @@ You can pass in different parameters to override these defaults:
     string outerPosition = "fixed",
     string linkPosition = "absolute"
 ```
-
--------------------------------------------------------------------------------------
-
-   ( (
-    ) )       If you would like to show your appreciation for this package, 
-  ........    you could buy me a coffee, if you want.
-  |      |]   
-  \      /    https://codeshare.co.uk/coffee
-   `----'
