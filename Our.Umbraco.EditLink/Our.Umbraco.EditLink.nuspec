@@ -8,7 +8,7 @@
     <owners>Paul Seal</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/prjseal/Our.Umbraco.EditLink</projectUrl>
-    <icon>https://github.com/prjseal/Our.Umbraco.EditLink/blob/master/images/logo.jpg?raw=true</icon>
+    <iconUrl>https://github.com/prjseal/Our.Umbraco.EditLink/blob/master/images/logo.jpg?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>With this package installed, if you are logged into the Umbraco backoffice whilst browsing the front end of the site, you will see a link to edit the page.
     </description>
