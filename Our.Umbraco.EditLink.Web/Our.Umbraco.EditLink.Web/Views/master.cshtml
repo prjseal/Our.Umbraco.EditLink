@@ -2,7 +2,6 @@
 @using ClientDependency.Core.Mvc
 
 @using Our.Umbraco.EditLink
-@using Our.Umbraco.EditLink.Extensions
 
 @{
     Layout = null;
@@ -28,7 +27,10 @@
     </head>
     <body>
         @Html.Partial("~/Views/Partials/mainNavigation.cshtml")
-        @Html.UmbracoEditLink(Model, EditLinkPosition.TopRight)
+        @Html.RenderEditLink(Model)
+        @Html.RenderEditLink(Model, EditLinkPosition.TopRight, linkBackgroundColour: "red")
+        @Html.RenderEditLink(Model, EditLinkPosition.BottomRight, linkBackgroundColour: "green")
+        @Html.RenderEditLink(Model, EditLinkPosition.BottomLeft, linkBackgroundColour: "purple")
         @RenderBody()
         @Html.Partial("~/Views/Partials/Footer.cshtml")
         @Html.RenderJsHere()

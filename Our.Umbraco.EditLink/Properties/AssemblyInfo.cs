@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Our.Umbraco.EditLink")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("With this package installed, if you are logged into the backoffice whilst browsing the front end of the site, you will see a link to edit the page.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Paul Seal")]
 [assembly: AssemblyProduct("Our.Umbraco.EditLink")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
