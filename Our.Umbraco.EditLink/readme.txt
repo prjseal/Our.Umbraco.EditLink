@@ -30,17 +30,22 @@ Then inside the body tag somewhere, just add
 
 You can pass in different parameters to override these defaults:
 
-position = EditLinkPosition.TopLeft, 
-linkColour = "#00aea2", 
-editMessage = "Edit",
-margin = 10, 
-zindex = 10000, 
-umbracoEditContentUrl = "/umbraco#/content/content/edit/",
-fontSize = 16, 
-outerPosition = "fixed", 
-linkPosition = "absolute",
-outerClassName = "edit-link-outer", 
-linkClassName = "edit-link-inner"
+    EditLinkPosition position = EditLinkPosition.TopLeft,
+    bool applyInlineLinkStyles = true,
+    string editMessage = "Edit",
+    string linkColour = "#fff",
+    string linkBackgroundColour = "#1b264f",
+    int fontSize = 16,
+    int linkPadding = 10,
+    int borderRadius = 6,
+    string linkClassName = "edit-link-inner",
+    bool applyInlineOuterElementStyles = true,
+    int margin = 10,
+    int zindex = 10000,
+    string umbracoEditContentUrl = "/umbraco#/content/content/edit/",
+    string outerClassName = "edit-link-outer",
+    string outerPosition = "fixed",
+    string linkPosition = "absolute"
 
 Here is the link to the GitHub project https://github.com/prjseal/Our.Umbraco.EditLink
 
