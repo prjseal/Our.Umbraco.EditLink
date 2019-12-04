@@ -1,6 +1,4 @@
 # Our.Umbraco.EditLink
-                                                                           
--------------------------------------------------------------------
 
 A simple package for Umbraco by Paul Seal from https://codeshare.co.uk
 
