@@ -22,11 +22,11 @@ When you click the link it will open the page in a new tab.
 
 In your master view add
 
-@Using Our.Umbraco.EditLink
+@using Our.Umbraco.EditLink
 
 Then inside the body tag somewhere, just add
 
-@RenderEditLink(Model)
+@Html.RenderEditLink(Model)
 
 You can pass in different parameters to override these defaults:
 

@@ -2,6 +2,14 @@
 
 A simple package for Umbraco by Paul Seal from https://codeshare.co.uk
 
+## NuGet
+
+Install via NuGet: ``` Install-Package Our.Umbraco.EditLink ```
+
+[![Nuget Downloads](https://img.shields.io/nuget/dt/Our.Umbraco.EditLink.svg)](https://www.nuget.org/packages/Our.Umbraco.EditLink)
+
+[Or click here to go to the package landing page](https://www.nuget.org/packages/Our.Umbraco.EditLink)
+
 This package is useful on sites with lots of content, where you just
 need to edit a page that you can find easily on the front end of the
 site, but it is harder to find in the backoffice.
@@ -16,13 +24,13 @@ When you click the link it will open the page in a new tab.
 In your master view add
 
 ```
-@Using Our.Umbraco.EditLink
+@using Our.Umbraco.EditLink
 ```
 
 Then inside the body tag somewhere, just add
 
 ```
-@RenderEditLink(Model)
+@Html.RenderEditLink(Model)
 ```
 
 You can pass in different parameters to override these defaults:

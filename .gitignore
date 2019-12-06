@@ -13,3 +13,4 @@
 /Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/obj/Debug
 /Our.Umbraco.EditLink.Web/Our.Umbraco.EditLink.Web/Umbraco
 /Our.Umbraco.EditLink.Web/packages
+*.nupkg
