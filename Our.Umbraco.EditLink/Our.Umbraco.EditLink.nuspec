@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Our.Umbraco.EditLink</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Our.Umbraco.EditLink</title>
     <authors>Paul Seal</authors>
     <owners>Paul Seal</owners>
@@ -13,6 +13,7 @@
     <description>With this package installed, if you are logged into the Umbraco backoffice whilst browsing the front end of the site, you will see a link to edit the page.
     </description>
     <releaseNotes>
+      - fixed style attribute and removed extra spaces
       - fixed readme errors
       - first release for v8 under the new name Our.Umbraco.EditLink
     </releaseNotes>

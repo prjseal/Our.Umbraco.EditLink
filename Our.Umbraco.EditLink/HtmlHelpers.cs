@@ -46,8 +46,7 @@ namespace Our.Umbraco.EditLink
                 editLinkCode.Append($">");
 
                 //Render the link
-                editLinkCode.Append($"<a ");
-                editLinkCode.Append($" href =\"{umbracoEditContentUrl}{thisPage.Id}\"");
+                editLinkCode.Append($"<a href=\"{umbracoEditContentUrl}{thisPage.Id}\"");
                 editLinkCode.Append($" target=\"_blank\"");
                 editLinkCode.Append($" class=\"{linkClassName}\"");
 
@@ -55,7 +54,7 @@ namespace Our.Umbraco.EditLink
                 if (applyInlineLinkStyles)
                 {
                     string linkStyles = GetLinkStyles(linkColour, linkBackgroundColour, linkPadding, fontSize, borderRadius);
-                    editLinkCode.Append($"style={linkStyles}");
+                    editLinkCode.Append($"style=\"{linkStyles}\"");
                 }
 
                 //Render the link text and closing tag
